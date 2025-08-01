@@ -59,17 +59,23 @@ Open [http://localhost:3000](http://localhost:3000) to see the application runni
 - Choose an actor from the dropdown list
 - The application will automatically fetch the actor's input schema
 - Each actor displays its title and description for easy identification
+- <img width="1447" height="912" alt="image" src="https://github.com/user-attachments/assets/b20417c8-035e-4264-b85a-4cf15e47484a" />
+
 
 ### 3. Configuration
 - The application dynamically generates a form based on the actor's input schema
 - Fill in the required fields (marked with "Required" badge)
 - The form supports various input types: text, numbers, booleans, enums, and arrays
 - Each field includes helpful descriptions from the actor schema
+- <img width="1447" height="912" alt="image" src="https://github.com/user-attachments/assets/e67e0124-d83a-4e15-9cc2-306950194b2c" />
+
 
 ### 4. Execution
 - Click "Execute Actor" to run the selected actor with your inputs
 - The application will monitor the execution status in real-time
 - Results are displayed immediately upon completion
+- <img width="1447" height="912" alt="image" src="https://github.com/user-attachments/assets/d276fea2-5308-4ab9-ad13-8d3f91dea005" />
+
 
 ### 5. Results
 - View execution status (SUCCEEDED, FAILED, TIMEOUT, etc.)
