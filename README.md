@@ -52,6 +52,8 @@ Open [http://localhost:3000](http://localhost:3000) to see the application runni
 - Enter your Apify API key in the authentication card
 - Click "Connect" to fetch your available actors
 - The application will validate your API key and retrieve your actor list
+- <img width="1447" height="912" alt="image" src="https://github.com/user-attachments/assets/c0cc5d68-b379-42d7-9228-b0ebd4405a98" />
+
 
 ### 2. Actor Selection
 - Choose an actor from the dropdown list
