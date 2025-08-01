@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favicon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5d259c;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#93b3e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#160f27;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#favicon-grad)"/>
+  
+  <!-- DevifyX Symbol - Simplified DX for favicon -->
+  <g fill="white" opacity="0.95">
+    <!-- D shape -->
+    <path d="M 12 16 L 12 48 L 24 48 Q 32 48 32 32 Q 32 16 24 16 Z M 16 20 L 24 20 Q 28 20 28 32 Q 28 44 24 44 L 16 44 Z"/>
+    
+    <!-- X shape -->
+    <path d="M 36 16 L 42 16 L 48 28 L 54 16 L 60 16 L 51 32 L 60 48 L 54 48 L 48 36 L 42 48 L 36 48 L 45 32 Z"/>
+  </g>
+</svg>

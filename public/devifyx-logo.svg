@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5d259c;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#93b3e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#160f27;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#grad1)" filter="url(#glow)" opacity="0.9"/>
+  
+  <!-- DevifyX Symbol - Stylized DX -->
+  <g fill="white" opacity="0.95">
+    <!-- D shape -->
+    <path d="M 60 60 L 60 140 L 90 140 Q 120 140 120 100 Q 120 60 90 60 Z M 75 75 L 90 75 Q 105 75 105 100 Q 105 125 90 125 L 75 125 Z"/>
+    
+    <!-- X shape -->
+    <path d="M 130 60 L 145 60 L 160 85 L 175 60 L 190 60 L 167.5 100 L 190 140 L 175 140 L 160 115 L 145 140 L 130 140 L 152.5 100 Z"/>
+  </g>
+  
+  <!-- Subtle shine effect -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+</svg>
